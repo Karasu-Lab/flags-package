@@ -1,7 +1,6 @@
 {
-  "name": "@Hashibutogarasu/flags",
+  "name": "@karasu-lab/flags",
   "version": "0.1.0",
-  "private": true,
   "exports": {
     "./server": "./src/server/index.ts",
     "./client": "./src/client/index.ts"
@@ -20,5 +19,11 @@
   "peerDependencies": {
     "next": "^15.3.9",
     "react": "^19"
+  },
+  "files": [
+    "src"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }
