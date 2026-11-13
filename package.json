@@ -25,5 +25,8 @@
     ],
     "publishConfig": {
         "registry": "https://npm.pkg.github.com"
+    },
+    "versionNaming": {
+        "pattern": "{version}-{shortCommitHash}"
     }
 }
